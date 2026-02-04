@@ -1,9 +1,3 @@
-import os
-try:
-    import google.generative_ai as genai
-except ImportError:
-    os.system("pip install google-generative-ai")
-    import google.generative_ai as genai
 import streamlit as st
 import google.generative_ai as genai
 
